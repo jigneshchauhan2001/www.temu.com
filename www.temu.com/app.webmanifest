@@ -1,0 +1,25 @@
+{
+    "short_name": "Temu",
+    "name": "Temu",
+    "description": "Temu PWA",
+    "icons": [
+        {
+            "src": "https://aimg.kwcdn.com/upload_aimg/kpp/a9c18bb2-d009-4598-9685-be5171b614c4.png.slim.png?imageView2/2/w/192",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://aimg.kwcdn.com/upload_aimg/kpp/a9c18bb2-d009-4598-9685-be5171b614c4.png.slim.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "https://aimg.kwcdn.com/upload_aimg/kpp/6bd97669-5250-473c-9c20-24f2b47fea6b.png.slim.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/?_x_from=pwa",
+    "background_color": "#fff",
+    "display": "minimal-ui"
+}
